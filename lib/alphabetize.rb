@@ -5,5 +5,5 @@ def alphabetize(arr)
   esp_alphabet_array.each_with_index do |letter, index|
     esp_hash[letter] = index
   end
-  arr.sort_by {|phrase| esp_hash.keys}
+  arr.sort_by {|phrase| phrase.chars.map{|c| esp_hash.index(c)}}
 end
