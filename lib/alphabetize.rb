@@ -7,4 +7,5 @@ def alphabetize(arr)
   end
   arr.sort_by do |phrase|
     phrase.chars.each do |letter|
+      esperanto_alphabet
 end
