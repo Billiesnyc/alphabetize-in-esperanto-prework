@@ -6,5 +6,5 @@ def alphabetize(arr)
     esp_hash[letter] = index
   end
   arr.sort_by do |phrase|
-    phrase.chars
+    phrase.chars.each do |
 end
