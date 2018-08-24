@@ -5,4 +5,5 @@ def alphabetize(arr)
     phrase.chars.each do |letter|
       esp_alphabet_array.index(letter)
     end
+  end
 end
